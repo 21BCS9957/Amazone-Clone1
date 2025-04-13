@@ -1,0 +1,195 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="amazon.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav_bar">
+
+            <div class="logo border">
+                <div class="amlogo">
+
+                </div>
+            </div>
+            <div class="navadress border">
+                <p class=" add_one">Diliver to</p>
+
+                <div class="icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add_second"> India</p>
+                </div>
+            </div>
+            <div class="nav_search ">
+                <select class="search_select">
+                    <option> All </option>
+                </select>
+                <input placeholder=" Search Amazon" class="search_input ">
+                <div class="search_logo log">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="nav-signin border">
+                <p><span>Hello,signin</span></p>
+                <p class="nav-second"> Acount & List</p>
+            </div>
+            <div class="nav-return border">
+                <p><span>returns</span></p>
+                <p class="nav-second"> & Orders</p>
+            </div>
+
+            <div class=" cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p class="cart1"> Cart</p>
+            </div>
+        </div>
+        <div class=" progress">
+            <div class="menu border border">
+                <i class="fa-solid fa-bars"></i>
+                <p>All</p>
+            </div>
+            <div class="paragraph ">
+                <p class="border"> Today's Deal</p>
+                <p class="border"> Customer Service</p>
+                <p class="border">Registry</p>
+                <p class="border">Gift Cards</p>
+                <p class="border">Sell</p>
+            </div>
+            <div class="Panel-Deals border">
+                <P>Shop Deals in Electroninc</P>
+            </div>
+        </div>
+
+
+
+
+
+    </header>
+    <div class="hero-section">
+        <div class="hero-message">
+            <p> You are on Amazon.com. You can also shop on Amazon India for millions of products with fast delivery. <a
+                    href="#"> click here to goto Amazon.in</a></p>
+        </div>
+    </div>
+
+    <div class="Boxes">
+        <div class="box1 box">
+            <div class="image">
+                <h2 style="color: black;">Revamp your Home in Style</h2>
+                <div class="img1 img" style="background-image: url(box1.0.jpg);"> </div>
+                <div class="img2 img" style="background-image: url(box1.1.jpg);"></div>
+
+                <div class="img3 img" style="background-image: url(box1.2.jpg);"></div>
+                <div class="img4 img" style="background-image: url(box1.4.jpg);"></div>
+            </div>
+            <div class="see"> <a href="#"> See more</a></div>
+        </div>
+        <div class="box2 box">
+            <div class="image">
+                <h2 style="color: black;">Appliances for your home </h2>
+                <div class="img1 img" style="background-image: url(box3.0.jpg);"> </div>
+                <div class="img2 img" style="background-image: url(box3.1.jpg);"></div>
+
+                <div class="img3 img" style="background-image: url(box3.2.jpg);"></div>
+                <div class="img4 img" style="background-image: url(box3.4.jpg);"></div>
+            </div>
+            <div class="see"> <a href="#"> See more</a></div>
+        </div>
+        <div class="box3 box">
+            <div class="image">
+                <h2 style="color: black;">Explore more from Small</h2>
+                <div class="img1 img" style="background-image: url(box2.0.jpg);"> </div>
+                <div class="img2 img" style="background-image: url(box2.1.jpg);"></div>
+
+                <div class="img3 img" style="background-image: url(box2.2.jpg);"></div>
+                <div class="img4 img" style="background-image: url(box1.4.jpg);"></div>
+            </div>
+            <div class="see"> <a href="#"> See more</a></div>
+        </div>
+        <div class="box4 box">
+            <div class="image">
+                <h2 style="color: black;">Starting ₹149 | Headphones</h2>
+                <div class="img1 img" style="background-image: url(box4.0.jpg);"> </div>
+                <div class="img2 img" style="background-image: url(box4.1.jpg);"></div>
+
+                <div class="img3 img" style="background-image: url(box4.2.jpg);"></div>
+                <div class="img4 img" style="background-image: url(box4.4.jpg);"></div>
+            </div>
+            <div class="see"> <a href="#"> See more</a></div>
+        </div>
+        <div></div>
+    </div>
+    <footer>
+        <div class="personalise">
+            <div class="reco">
+                <h2> See Personalised Recomendations</h2>
+            </div>
+            <div class="but"> <button> <a href="#">Sign in</a></button>
+                <div class="fo">
+                    <p> New Customer? <a href="#"> Start Hear</a>
+                    </p>
+                </div>
+            </div>
+
+
+
+    </footer>
+    <div class="panel"> Back to Top</div>
+    <div class="main-panel">
+        <div class="panel1">
+            <ul>
+                <li class="head1">Get to Know Us</li>
+                <li class="all1">About Amazon</li>
+                <li class="all1">Careers</li>
+                <li class="all1">Press Releases</li>
+                <li class="all1">Amazon Science</li>
+            </ul>
+        </div>
+        <div class="panel1">
+            <ul>
+                <li class="head1">Connect with Us</li>
+                <li class="all1">Facebook</li>
+                <li class="all1">Twiter</li>
+                <li class="all1">Instagram</li>
+
+            </ul>
+        </div>
+
+        <div class="panel1">
+            <ul>
+                <li class="head1">Make Money with Us</li>
+                <li class="all1">Sell on Amazon</li>
+                <li class="all1">Sell under Amazon Accelerator</li>
+                <li class="all1">Protect and Build Your Brand</li>
+                <li class="all1">Amazon Global Selling</li>
+                <li class="all1">Supply to Amazon</li>
+                <li class="all1">Become an Affiliate</li>
+                <li class="all1">Fulfilment by Amazon</li>
+                <li class="all1">Advertise Your Products</li>
+                <li class="all1">Amazon Pay on Merchants</li>
+            </ul>
+        </div>
+
+        <div class="panel1">
+            <ul>
+                <li class="head1">Let Us Help You</li>
+                <li class="all1">Your Account</li>
+                <li class="all1">Returns Centre</li>
+                <li class="all1">Recalls and Product Safety Alerts</li>
+                <li class="all1">100% Purchase Protection</li>
+                <li class="all1">Amazon App Download</li>
+                <li class="all1">Help</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
