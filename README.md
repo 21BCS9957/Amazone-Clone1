@@ -3,7 +3,7 @@
 This is a responsive Amazon clone built with HTML, CSS, and JavaScript. The project replicates the main features and design of Amazon's website.
 
 ## Live Demo
-[View Live Demo](https://21bcs9957.github.io/Amaone_clone/)
+[View Live Demo](https://21bcs9957.github.io/Amazone-Clone1/)
 
 ## Features
 
@@ -26,7 +26,7 @@ This is a responsive Amazon clone built with HTML, CSS, and JavaScript. The proj
 
 1. Clone the repository
 ```bash
-git clone https://github.com/21BCS9957/Amaone_clone.git
+git clone https://github.com/21BCS9957/Amazone-Clone1.git
 ```
 2. Open `index.html` in your web browser
 3. Start exploring the features!
@@ -61,6 +61,10 @@ git clone https://github.com/21BCS9957/Amaone_clone.git
 - Smooth scroll to top
 - Product box hover animations
 - "See more" category links
+- Product slider with navigation
+- Cart modal with item management
+- Loading animations
+- Responsive design for all devices
 
 ## Responsive Design
 
@@ -71,7 +75,7 @@ The website is fully responsive and works on:
 
 ## Deployment
 
-This project is deployed using GitHub Pages. You can view the live demo [here](https://21bcs9957.github.io/Amaone_clone/).
+This project is deployed using GitHub Pages. You can view the live demo [here](https://21bcs9957.github.io/Amazone-Clone1/).
 
 ## Future Improvements
 
@@ -88,4 +92,4 @@ Feel free to fork this project and make your own changes. Pull requests are welc
 
 ## License
 
-This project is created for educational purposes only. 
+This project is created for educational purposes only.
