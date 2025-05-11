@@ -2,6 +2,9 @@
 
 This is a responsive Amazon clone built with HTML, CSS, and JavaScript. The project replicates the main features and design of Amazon's website.
 
+## Live Demo
+[View Live Demo](https://21bcs9957.github.io/Amaone_clone/)
+
 ## Features
 
 - Responsive design that works on desktop and mobile devices
@@ -22,6 +25,9 @@ This is a responsive Amazon clone built with HTML, CSS, and JavaScript. The proj
 ## Getting Started
 
 1. Clone the repository
+```bash
+git clone https://github.com/21BCS9957/Amaone_clone.git
+```
 2. Open `index.html` in your web browser
 3. Start exploring the features!
 
@@ -62,6 +68,10 @@ The website is fully responsive and works on:
 - Desktop computers
 - Tablets
 - Mobile phones
+
+## Deployment
+
+This project is deployed using GitHub Pages. You can view the live demo [here](https://21bcs9957.github.io/Amaone_clone/).
 
 ## Future Improvements
 
