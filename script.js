@@ -95,4 +95,60 @@ document.querySelectorAll('.box-content p').forEach(link => {
         const category = this.parentElement.querySelector('h2').textContent;
         alert(`Loading more items from ${category} category`);
     });
+});
+
+// Product slider functionality
+let currentSlide = 0;
+const slides = document.querySelectorAll('.box');
+
+function showSlide(n) {
+    slides.forEach(slide => slide.style.display = 'none');
+    currentSlide = (n + slides.length) % slides.length;
+    slides[currentSlide].style.display = 'block';
+}
+
+// Initialize slider
+showSlide(0);
+
+// Add navigation buttons
+const sliderContainer = document.querySelector('.shop-section');
+const prevButton = document.createElement('button');
+const nextButton = document.createElement('button');
+
+prevButton.textContent = '←';
+nextButton.textContent = '→';
+
+[prevButton, nextButton].forEach(button => {
+    button.style.cssText = `
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        font-size: 18px;
+        z-index: 100;
+    `;
+});
+
+prevButton.style.left = '10px';
+nextButton.style.right = '10px';
+
+sliderContainer.style.position = 'relative';
+sliderContainer.appendChild(prevButton);
+sliderContainer.appendChild(nextButton);
+
+prevButton.addEventListener('click', () => showSlide(currentSlide - 1));
+nextButton.addEventListener('click', () => showSlide(currentSlide + 1));
+
+// Add smooth scrolling for navigation
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
 }); 
